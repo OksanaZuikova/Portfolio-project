@@ -1,2 +1,57 @@
-/*font-family: 'Lora', serif;
-font-family: 'Manrope', sans-serif;*/
+:root {
+  --primary-color: rgb(8, 77, 77);
+  --heading-font-family: "Lora", serif;
+  --main-font-family: "Manrope", sans-serif;
+}
+body {
+  font-family: "Manrope", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font-family);
+  color: rgb(8, 19, 19);
+  text-align: center;
+  font-weight: 600;
+}
+h1 {
+  font-size: 92px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+h2 {
+  font-size: 28px;
+}
+p {
+  font-family: var(--main-font-family);
+  color: rgb(5, 10, 10);
+  text-align: center;
+  font-size: 36px;
+  font-weight: 400;
+}
+.homepage {
+  height: 900px;
+  background: rgb(230, 248, 242);
+}
+.homepage p {
+  margin-bottom: 0px;
+  font-weight: 500;
+}
+.title {
+  padding-top: 190px;
+}
+.btn-main {
+  background: var(--primary-color);
+  border-radius: 4px;
+  padding: 15px;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  display: block;
+  margin: 60px auto;
+  text-align: center;
+  width: 150px;
+}
